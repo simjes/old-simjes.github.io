@@ -1,0 +1,37 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: #C8E6C9;
+}
+
+.circle-align {
+	float: left;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.air-bottom {
+	margin-bottom: 20px;
+}
+
+footer {
+	padding-top: 10px;
+	text-align: center;
+	color: #212121;
+	background-color: #FF5722;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active  {
+    color: #212121;
+}
+
+a.navbar-brand:link,
+a.navbar-brand:visited,
+a.navbar-brand:hover,
+a.navbar-brand:active{
+	color: #FFFFFF;
+}
