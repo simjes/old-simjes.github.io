@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-green {
-  background-color: #4CAF50;
+  background-color: #388E3C;
 }
 
 .btn-green {
@@ -40,9 +40,15 @@ a.navbar-brand:link,
 a.navbar-brand:visited,
 a.navbar-brand:hover,
 a.navbar-brand:active{
-	color: #000000;
+	color: #FFFFFF;
 }
 
 .row div {
 	padding-bottom: 20px;
+}
+
+hr {
+	border-color: #B6B6B6;
+	background-color: #B6B6B6;
+	color: #B6B6B6;
 }
