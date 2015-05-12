@@ -1,11 +1,14 @@
 body {
 	padding-top: 50px;
 	padding-bottom: 30px;
-	background-color: #81C784;
 }
 
 .navbar-green {
   background-color: #4CAF50;
+}
+
+.btn-green {
+	background-color:#C8E6C9;
 }
 
 .circle-align {
