@@ -3,6 +3,11 @@ body {
 	padding-bottom: 30px;
 }
 
+#jumb-picture {
+	display : block;
+    margin : auto;
+}
+
 .navbar-green {
   background-color: #388E3C;
 }
