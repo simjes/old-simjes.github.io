@@ -4080,6 +4080,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+	padding: 15px;
+    text-align: center;
+    width: 100%;
   }
 }
 .navbar-collapse {
@@ -4175,7 +4178,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
+  float: none;
   height: 50px;
   padding: 15px 15px;
   font-size: 18px;
@@ -4869,7 +4872,8 @@ a.badge:focus {
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 50px;
+  text-align: center;
   font-weight: 200;
 }
 .jumbotron > hr {
@@ -6583,4 +6587,6 @@ button.close {
     display: none !important;
   }
 }
+
+
 /*# sourceMappingURL=bootstrap.css.map */
