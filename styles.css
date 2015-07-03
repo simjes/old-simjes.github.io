@@ -6,6 +6,8 @@ body {
 
 .navbar-green {
   background-color: #388E3C;
+  text-align: center;
+  padding: 15px;
 }
 
 
@@ -13,11 +15,21 @@ body {
 	background-color:#C8E6C9;
 }
 
+
 .circle-align {
-	float: left;
-	margin-right: 20px;
-	margin-top: 50px;
-	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+
+@media (min-width: 768px) {
+	.circle-align {
+	  float: left;
+	  margin-right: 25px;
+	  margin-top: 50px;
+	  margin-bottom: 10px;
+	}	
 }
 
 footer {
