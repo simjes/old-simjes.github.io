@@ -25,8 +25,7 @@ body {
 
 @media (min-width: 768px) {
 	.circle-align {
-	  float: left;
-	  margin-right: 25px;
+	  float: right;
 	  margin-top: 50px;
 	  margin-bottom: 10px;
 	}	
