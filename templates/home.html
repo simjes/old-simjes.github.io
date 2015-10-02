@@ -1,13 +1,13 @@
 <div ng-init="getContent()">
-    <div class="row">
+    <div class="row row-space">
         <h3>Current projects</h3>
-        <div ng-repeat="project in projects.currentProjects">
+        <div class="project-space" ng-repeat="project in projects.currentProjects">
             <project-info project="project"></project-info>
         </div>
     </div>
-    <div class="row">
+    <div class="row row-space">
         <h3>Old projects</h3>
-        <div ng-repeat="project in projects.oldProjects">
+        <div class="project-space" ng-repeat="project in projects.oldProjects">
             <project-info project="project"></project-info>
         </div>
     </div>

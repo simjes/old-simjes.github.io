@@ -57,7 +57,16 @@ a.navbar-brand:active{
 }
 
 .row div {
+    //padding-bottom: 20px;
+} 
+
+.project-space {
     padding-bottom: 20px;
+}
+
+
+.row-space {
+    padding-bottom: 50px;
 }
 
 hr {
@@ -80,4 +89,5 @@ hr {
 
 h3 {
    text-align: center;
+   text-decoration: underline;
 }
