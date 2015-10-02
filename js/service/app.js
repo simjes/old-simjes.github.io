@@ -1,4 +1,4 @@
-angular.module('simjesPortfolio', ['ngRoute', 'simjesPortfolio.controllers'])
+angular.module('simjesPortfolio', ['ngRoute', 'simjesPortfolio.controllers', 'simjesPortfolio.projectInfo'])
         .config(['$routeProvider', function ($routeProvider) {
                 $routeProvider
                         .when('/', {
