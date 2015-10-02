@@ -66,6 +66,13 @@ hr {
     color: #B6B6B6;
 }
 
+#jumbo-custom {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    background-color: #4CAF50;
+}
+
 #jumbo-txt {
     text-align: center;
     font-size: 3em;
