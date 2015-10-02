@@ -14,10 +14,10 @@
         <link rel="icon" type="image/png" href="img/favicon.png">
     </head> 
     <body ng-app="simjesPortfolio">
+        <header ng-include="'templates/head.html'"></header>
         <div class="container">
-            <header ng-include="'templates/head.html'"></header>
             <div ng-view></div>
-            <footer class="navbar navbar-fixed-bottom" ng-include="'templates/footer.html'"></footer>
         </div>
+        <footer class="navbar navbar-fixed-bottom" ng-include="'templates/footer.html'"></footer>
     </body>
 </html>
