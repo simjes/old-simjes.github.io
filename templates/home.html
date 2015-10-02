@@ -1,6 +1,15 @@
 <div ng-init="getContent()">
-    <div ng-repeat="project in oldProjects.oldProjects">
-        <project-info project="project"></project-info>
+    <div class="row">
+        <h3>Current projects</h3>
+        <div ng-repeat="project in projects.currentProjects">
+            <project-info project="project"></project-info>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Old projects</h3>
+        <div ng-repeat="project in projects.oldProjects">
+            <project-info project="project"></project-info>
+        </div>
     </div>
 </div>
 
