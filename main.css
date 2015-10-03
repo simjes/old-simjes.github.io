@@ -1,17 +1,17 @@
 body {
   padding-top: 50px;
   padding-bottom: 30px;
-  background-color: #100806;
-  color: #FFFFFF; }
+  background-color: #FFFFFF;
+  color: #000000; }
 
 .navbar-config {
-  background-color: #100806;
+  background-color: #f36e2a;
   text-align: center;
   padding: 15px; }
 
 .btn-config {
-  background-color: #1f1a19;
-  color: #FFFFFF; }
+  background-color: #eeeeee;
+  color: #000000; }
 
 .circle-align {
   display: block;
@@ -26,14 +26,14 @@ body {
 footer {
   padding-top: 10px;
   text-align: center;
-  background-color: #100806; }
+  background-color: #eeeeee; }
   footer p {
-    color: #FFFFFF; }
+    color: #000000; }
   footer a:link,
   footer a:visited,
   footer a:hover,
   footer a:active {
-    color: #FFFFFF; }
+    color: #000000; }
 
 a.navbar-brand:link,
 a.navbar-brand:visited,
@@ -48,8 +48,8 @@ hr {
 
 #jumbo-custom {
   padding: 30px 0;
-  color: #FFFFFF;
-  background-color: #1f1a19; }
+  color: #000000;
+  background-color: #eeeeee; }
 
 #jumbo-txt {
   text-align: center;

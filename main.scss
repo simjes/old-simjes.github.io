@@ -1,6 +1,9 @@
-$primary-color: #100806;
-$secondary-color: #1f1a19;
-$primary-text-color: #FFFFFF;
+$primary-color: #FFFFFF;
+$secondary-color: #eeeeee;
+$third-color: #f36e2a;
+$primary-text-color: #000000;
+$secondary-text-color: #FFFFFF;
+
 $hairline-color: #B6B6B6;
 
 body {
@@ -11,7 +14,7 @@ body {
 }
 
 .navbar-config {
-  background-color: $primary-color;
+  background-color: $third-color;
   text-align: center;
   padding: 15px;
 }
@@ -38,7 +41,7 @@ body {
 footer {
   padding-top: 10px;
   text-align: center;
-  background-color: $primary-color;
+  background-color: $secondary-color;
 
   p {
     color: $primary-text-color;
@@ -56,7 +59,7 @@ a.navbar-brand:link,
 a.navbar-brand:visited,
 a.navbar-brand:hover,
 a.navbar-brand:active{
-  color: $primary-text-color;
+  color: $secondary-text-color;
 }
 
 hr {
