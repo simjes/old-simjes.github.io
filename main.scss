@@ -1,29 +1,28 @@
-$navbar-color: #388E3C;
-$navbar-text-color: #FFFFFF;
+$primary-color: #100806;
+$secondary-color: #1f1a19;
 
-$button-color: #C8E6C9;
+$primary-text-color: #FFFFFF;
 
-$primary-text-color: #000000;
-$second-text-color: #FFFFFF;
-
-$jumbotron-color: #4CAF50;
-$footer-color: #1B5E20;
+$button-color: #1f1a19;
 
 $hairline-color: #B6B6B6;
 
 body {
   padding-top: 50px;
   padding-bottom: 30px;
+  background-color: $primary-color;
+  color: $primary-text-color;
 }
 
 .navbar-config {
-  background-color: $navbar-color;
+  background-color: $primary-color;
   text-align: center;
   padding: 15px;
 }
 
 .btn-config {
   background-color: $button-color;
+  color: $primary-text-color;
 }
 
 .circle-align {
@@ -43,17 +42,17 @@ body {
 footer {
   padding-top: 10px;
   text-align: center;
-  background-color: $footer-color;
+  background-color: $primary-color;
 
   p {
-    color: $second-text-color;
+    color: $primary-text-color;
   }
 
   a:link,
   a:visited,
   a:hover,
   a:active  {
-    color: $second-text-color;
+    color: $primary-text-color;
   }
 }
 
@@ -61,7 +60,7 @@ a.navbar-brand:link,
 a.navbar-brand:visited,
 a.navbar-brand:hover,
 a.navbar-brand:active{
-  color: $second-text-color;
+  color: $primary-text-color;
 }
 
 hr {
@@ -72,8 +71,8 @@ hr {
 
 #jumbo-custom {
   padding: 30px 0px;
-  color: $second-text-color;
-  background-color: $jumbotron-color;
+  color: $primary-text-color;
+  background-color: $secondary-color;
 }
 
 #jumbo-txt {
