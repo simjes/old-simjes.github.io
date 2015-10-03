@@ -1,12 +1,16 @@
 <div class="col-sm-12 col-md-4">
-    <div class="project-box"></div>
-    <div class="col-xs-12 col-sm-4">
-        <img class="img-circle circle-align" src="{{project.img}}" alt="icon" width="100" height="100">
+    <div class="project-box">
+        <div class="col-xs-12 col-sm-4">
+            <img class="img-circle circle-align" src="{{project.img}}" alt="icon" width="100" height="100">
+        </div>
+        <div class="col-xs-12 col-sm-8">
+            <h2>{{project.title}}</h2>
+
+            <p>{{project.descr}}</p>
+
+            <p ng-if="project.link"><a class="btn btn-default btn-config" href="{{project.link}}" role="button">Source
+                code &raquo;</a></p>
+        </div>
+        <div class="visible-xs-inline col-xs-12"><hr></div>
     </div>
-    <div class="col-xs-12 col-sm-8">
-        <h2>{{project.title}}</h2>
-        <p>{{project.descr}}</p> 
-        <p ng-if="project.link"><a class="btn btn-default btn-green" href="{{project.link}}" role="button">Source code &raquo;</a></p>
-    </div>
-    <div class="visible-xs-inline col-xs-12"><hr></div>
 </div>
