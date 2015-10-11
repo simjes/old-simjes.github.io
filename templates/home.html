@@ -1,5 +1,6 @@
 <div ng-init="getContent()">
     <div ng-repeat="project in projects.projects">
+        <div class="row" ng-if="$index % 3 == 0"></div>
         <project-info project="project"></project-info>
     </div>
 </div>
