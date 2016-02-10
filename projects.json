@@ -4,7 +4,7 @@
             "title": "Event server",
             "subtitle": "Node, MongoDB",
             "status": "indev",
-            "description": "RESTful Node server for storing information about events. This API will be used for an cross-platform application later. MongoDB is used for storing. Will also write tests.",
+            "description": "RESTful Node server for storing information about events. This API will be used for a cross-platform application later. MongoDB is used for storing. Will also write tests.",
             "icon": "img/card_header/cloudcomics.svg",
             "card_img": "",
             "links": {
